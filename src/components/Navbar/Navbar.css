@@ -1,0 +1,44 @@
+.navbar{
+  background: #343648;
+  display: flex; 
+  align-items: center;
+  height: 55px;
+  border-radius: 10px;
+  padding: 5px 25px;
+  width: 100%;
+}
+.navbar-left{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+.navbar-left input{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+.navbar-right{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #bbbbc3;
+
+}
+.navbar-right img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.nav-icon{
+  cursor: pointer;
+}
+@media (max-width: 614px) {
+  .nav-icon{
+    display: none !important;
+  }
+}

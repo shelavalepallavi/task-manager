@@ -1,0 +1,38 @@
+.taskform {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 400px;
+  color: black;
+}
+.taskform label{
+  font-weight: 500;
+}
+
+.taskform input, .taskform textarea, .taskform button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.taskform button {
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.taskform-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #888;
+}

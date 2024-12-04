@@ -1,0 +1,37 @@
+.taskdashboard{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: #343648;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+.taskdashboard-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.taskdashboard-link{
+  color: white;
+  border: 1px solid #ccc4c4;
+  border-radius: 8px;
+  padding: 8px 15px;
+  cursor: pointer;
+  background: transparent;
+}
+.taskdashboard-main{
+  display: flex;
+  gap: 30px;
+}
+.taskdashboard-main p{
+  cursor: pointer;
+}
+.taskdashboard-main p.active {
+  font-weight: bold;
+  color: #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+}

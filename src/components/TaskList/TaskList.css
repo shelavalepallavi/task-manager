@@ -1,0 +1,8 @@
+.tasklist{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.tasklist-para{
+  margin-top: 10px;
+}
